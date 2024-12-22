@@ -47,7 +47,7 @@ def cosine_similarity_bert(sentence1, sentence2, tokenizer, model):
     return cosine_similarity_bert_value.item()
 
 ## Instead of running this, run the save embedding file below.
-client = OpenAI(api_key='sk-proj-rnvImRGIkwtlOigie9LHT3BlbkFJyvbASU5Iqj9yyPewC5bw')
+client = OpenAI(api_key='')
 
 def get_embedding(text, model="text-embedding-3-small"):
     text = text.replace("\n", " ")
